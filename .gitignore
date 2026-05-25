@@ -1,0 +1,69 @@
+# RiskMapper - Git Ignore
+
+# Results and logs (user-generated scan data - NOT for version control)
+results/
+*.csv
+*.json
+scan_log.txt
+
+# Documentation (internal/developer use only - not for public release)
+ROADMAP.md
+STATUS.md
+CLEANUP_SUMMARY.md
+port.md
+
+# PowerShell specific
+*.ps1xml
+*.psm1
+*.psd1
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS specific
+*.tmp
+*.temp
+$RECYCLE.BIN/
+
+# User config overrides (keep defaults in repo)
+config.local.ps1
+settings.local.ps1
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Test artifacts
+test-results/
+coverage/
+.coverage
+
+# Node/npm (if ever used)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python (if ever used)
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Sensitive data
+secrets.txt
+credentials.ps1
+*.key
+*.pem
+
+# Debug artifacts
+debug-logs/
+*.log
