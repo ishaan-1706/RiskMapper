@@ -192,7 +192,7 @@ DefaultThreadCount = 20     # ~3 seconds for 14 ports (minor improvement)
 
 ```
 ========================================
-  Port Manager
+  RiskMapper
   TCP Port Scanner
 ========================================
 Validating parameters...
@@ -449,5 +449,6 @@ For issues or questions:
 - Port risk classification and scoring
 - CSV/JSON export
 - Enhanced input validation with detailed error messages
-#   R i s k M a p p e r  
+#   R i s k M a p p e r 
+ 
  
